@@ -1,0 +1,17 @@
+/* website fonts */
+ 
+
+.quicksand-primary-font> {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+
+.raleway-secondary-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
