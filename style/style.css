@@ -30,7 +30,7 @@
  }
 
 /* shared style */
-.navbar, .banner-container{
+.navbar, .banner-container, main{
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -123,4 +123,28 @@ nav ul a{
     font-weight: bold;
     padding: 10px 47px;
     border-radius: 12px;
+}
+/* curriculum section style */
+.box-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #202020;
+}
+.box-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+}
+.box-container{
+    justify-content: space-between;
+    align-items: center;
+    gap: 29px;
+}
+.box{
+    height: 477px;
+    width: 368px;
+    justify-items: center;
+    text-align: center;
+    border: 1px solid red;
+    padding: 50px 40px;
 }
