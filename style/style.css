@@ -30,12 +30,15 @@
  }
 
 /* shared style */
-.navbar{
+.navbar, .banner-container{
     max-width: 1160px;
     margin: 0 auto;
 }
 .display-flex{
     display: flex;
+}
+.bg-white{
+    background-color: #F7F7F7;
 }
 /* navbar style */
 .navbar{
@@ -87,4 +90,37 @@ nav ul a{
 }
 #admission{
     color: #5D58EF;
+}
+/* banner style */
+.banner-container{
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.banner-content{
+    width: 640px;
+    height: 331px;
+    margin-top: 50px;
+
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 1.3rem;
+}
+#empowering{
+    color: #FEA301;
+}
+#vision{
+    color: #01ACFD;
+}
+.banner-btn{
+    background-color: #111111;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 47px;
+    border-radius: 12px;
 }
