@@ -42,6 +42,9 @@ main {
 .bg-white {
   background-color: #f7f7f7;
 }
+section{
+   margin-bottom: 100px;
+}
 /* navbar style */
 .navbar {
   display: flex;
@@ -129,6 +132,7 @@ nav ul a {
 .Curriculum-title{
   font-size: 2.8rem;
   font-weight: bold;
+  margin-top: 50px;
   margin-bottom: 80px;
 }
 .box-title {
@@ -198,6 +202,27 @@ nav ul a {
   height: 62px;
   margin-top: 80px;
  }
+ 
  .Curriculum-section{
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100px;
   text-align: center;
  }
+ /* our stories section style */
+.story-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.full-content{
+  background-color: white;
+}
+.story-img{
+  width: 100%;
+   
+}
+.stories-container{
+  flex-direction: ;
+}
