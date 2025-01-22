@@ -259,6 +259,7 @@ nav ul a {
 }
 .full-content {
   border-radius: 0 0 16px 16px;
+  margin-top: -3.5px;
 }
 .story-title {
   font-size: 1.5rem;
