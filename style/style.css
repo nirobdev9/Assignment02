@@ -223,6 +223,9 @@ nav ul a {
   gap: 10px;
   height: 301px;
 }
+.main-story-section{
+  text-align: center;
+}
 .full-content,
 .img-box {
   background-color: white;
@@ -320,7 +323,8 @@ nav ul a {
   color: white;
   padding: 10px 61px;
   border-radius: 12px;
-  margin-top: 50px;
+  margin: 50px;
+  
 }
 .stories-section {
   text-align: center;
@@ -400,7 +404,7 @@ footer {
     margin-left: 10px;
   }
   #nav-border {
-    border-bottom: 1px solid #FEA301;
+    border-bottom: 1px solid #fea301;
     padding-bottom: 10px;
   }
 
@@ -416,5 +420,28 @@ footer {
     padding: 10px;
     margin-top: 0;
     text-align: center;
+  }
+  .box-container {
+    flex-direction: column;
+    
+    padding: 30px;
+  }
+  .box{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .slider{
+    display: none;
+  }
+  .full-story-container{
+    display: none;
+  }
+   .stories-container{
+    padding: 10px;
+   }
+  .view-all{
+    margin-top: 130px;
+
   }
 }
