@@ -44,6 +44,14 @@
 .bg-white {
   background-color: #f7f7f7;
 }
+/* button hover */
+#hover-btn-effect:hover{
+  background-color: transparent;
+  border: 1px solid black;
+  color: #000000;
+}
+  
+
 
 /* navbar style */
 .navbar {
