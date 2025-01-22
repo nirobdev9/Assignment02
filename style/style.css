@@ -32,7 +32,8 @@
 /* shared style */
 .navbar,
 .banner-container,
-main {
+main,
+.footer-container {
   max-width: 1160px;
   margin: 0 auto;
 }
@@ -319,10 +320,14 @@ nav ul a {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-image: url("../assets/bg.png");
+  background-image: url("../assets/bg.png"),linear-gradient(#f7f7f7,rgba(254, 163, 1, 0.3));
   background-position: center;
-  /* background-image: linear-gradient( #f7f7f7, #fff4dc); */
+  /
  }
  #bg-change{
   background-color: #5D58F0;
+ }
+ /* footer style */
+ .footer-container{
+  display: flex;
  }
