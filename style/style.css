@@ -42,8 +42,8 @@ main {
 .bg-white {
   background-color: #f7f7f7;
 }
-section{
-   margin-bottom: 100px;
+section {
+  margin-bottom: 100px;
 }
 /* navbar style */
 .navbar {
@@ -129,7 +129,7 @@ nav ul a {
   border-radius: 12px;
 }
 /* curriculum section style */
-.Curriculum-title{
+.Curriculum-title {
   font-size: 2.8rem;
   font-weight: bold;
   margin-top: 50px;
@@ -159,7 +159,7 @@ nav ul a {
   border: 1px solid red;
   padding: 10px 50px;
 }
- 
+
 #btn-one {
   background-color: transparent;
   border: none;
@@ -170,59 +170,117 @@ nav ul a {
 #btn-two {
   background-color: transparent;
   border: none;
-  color: #F0AA00;
+  color: #f0aa00;
   font-size: 1rem;
   font-weight: bold;
 }
 #btn-three {
   background-color: transparent;
   border: none;
-  color: #8700FF;
+  color: #8700ff;
   font-size: 1rem;
   font-weight: bold;
 }
-#box-1{
-  background-image: linear-gradient(#DEF5FF, #FFFFFF);
-  border: 1px solid #DEF5FF;
-  border-radius: 19px;
-
-}
-#box-2{
-  background-image: linear-gradient(#FFF4DC, #FFFFFF);
-  border: 1px solid #FFF4DC;
+#box-1 {
+  background-image: linear-gradient(#def5ff, #ffffff);
+  border: 1px solid #def5ff;
   border-radius: 19px;
 }
-#box-3{
-  background-image: linear-gradient(#EEE1FF, #FFFFFF);
-  border: 1px solid #F2E8FF;
+#box-2 {
+  background-image: linear-gradient(#fff4dc, #ffffff);
+  border: 1px solid #fff4dc;
   border-radius: 19px;
 }
- .slider{
+#box-3 {
+  background-image: linear-gradient(#eee1ff, #ffffff);
+  border: 1px solid #f2e8ff;
+  border-radius: 19px;
+}
+.slider {
   width: 62px;
   height: 62px;
   margin-top: 80px;
- }
- 
- .Curriculum-section{
+}
+
+.Curriculum-section {
   background-image: url("../assets/bg.png");
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 100px;
   text-align: center;
- }
- /* our stories section style */
-.story-img-container{
+}
+/* our stories section style */
+.story-img-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
-.full-content{
+.full-content,
+.img-box {
   background-color: white;
 }
-.story-img{
+.story-img {
   width: 100%;
-   
 }
-.stories-container{
-  flex-direction: ;
+.full-content{
+  padding: 50px 30px;
+}
+.img-box-content{
+  padding: 0 0 10px 30px;
+}
+.stories-container {
+  gap: 20px;
+}
+.story-img {
+  border-radius: 16px 16px 0 0;
+}
+.full-content {
+  border-radius: 0 0 16px 16px;
+}
+.story-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+}
+.img-title{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.story-description{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666666;
+}
+.story-btn{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 15px 18px;
+  background-color: #3CD8E8;
+  color: white;
+  border-radius: 47px;
+  border: none;
+  
+}
+.img-container-btn{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 19px;
+  background-color: #95B226;
+  color: white;
+  border: none;
+  border-radius: 47px;
+ 
+}
+.full-content, .img-box-content{
+  position: relative;
+}
+.story-btn-container{
+  position: absolute;
+  top: -2rem;
+  left: 20px;
+}
+.grid-btn-container{
+  position: absolute;
+  top: -2.5rem;
+  left: 35px;
 }
