@@ -99,7 +99,6 @@ nav ul a {
 /* banner style */
 .banner-container {
   justify-content: center;
-  align-items: start;
   gap: 20px;
 }
 .banner-content {
@@ -214,12 +213,16 @@ nav ul a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  height: 301px;
 }
 .full-content,
 .img-box {
   background-color: white;
 }
 .story-img {
+  width: 100%;
+}
+.image-box img{
   width: 100%;
 }
 .full-content{
@@ -230,6 +233,7 @@ nav ul a {
 }
 .stories-container {
   gap: 20px;
+  text-align: center;
 }
 .story-img {
   border-radius: 16px 16px 0 0;
@@ -282,5 +286,43 @@ nav ul a {
 .grid-btn-container{
   position: absolute;
   top: -2.5rem;
-  left: 35px;
+  left: 20px;
 }
+ .img-grid{
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+ }
+.img-title{
+  padding: px;
+}
+ .full-story-container{
+   width: 580px;
+ }
+ .img-box{
+  border-radius: 16px 16px 16px 16px;
+ }
+ .stories-sec-title{
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+ }
+ .view-all{
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #111111;
+  color: white;
+  padding: 10px 61px;
+  border-radius: 12px;
+  margin-top: 50px;
+ }
+ .stories-section{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url("../assets/bg.png");
+  background-position: center;
+  /* background-image: linear-gradient( #f7f7f7, #fff4dc); */
+ }
+ #bg-change{
+  background-color: #5D58F0;
+ }
